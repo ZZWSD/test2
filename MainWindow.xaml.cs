@@ -23,6 +23,12 @@ namespace WpfApp2
         public MainWindow()
         {
             InitializeComponent();
+        
+        }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!"; //你可以直接複製貼過去
         }
     }
 }
